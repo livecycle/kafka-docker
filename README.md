@@ -1,3 +1,13 @@
+About this fork
+===============
+
+This is a fork of [wurstmeister/kafka-docker](github.com/wurstmeister/kafka-docker). The only changes are:
+
+- Merge [this PR](https://github.com/wurstmeister/kafka-docker/pull/678) to support KRaft (running without Zookeeper)
+- Add a GH action to publish the image to GH packages (ghr).
+
+Below is the original README.
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
 [![Docker Stars](https://img.shields.io/docker/stars/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
 [![](https://images.microbadger.com/badges/version/wurstmeister/kafka.svg)](https://microbadger.com/images/wurstmeister/kafka "Get your own version badge on microbadger.com")
